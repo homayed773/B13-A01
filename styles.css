@@ -367,3 +367,75 @@
 .message3 .dot {
   opacity: 0.6;
 }
+
+
+/* --------------------------footer section------------------ */
+
+.footer {
+    background-color: rgb(53, 100, 48);
+    color: #ffffff;
+    padding: 40px 60px 20px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo */
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.logo-icon {
+    font-size: 26px;
+}
+
+.logo-text {
+    font-size: 32px;
+    font-weight: bold;
+    color: #4caf50;
+}
+
+.footer-logo small {
+    margin-left: 6px;
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+/* Social Links */
+.footer-social {
+    text-align: right;
+}
+
+.footer-social p {
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.footer-social a {
+    color: #ffffff;
+    margin-left: 12px;
+    font-size: 16px;
+}
+
+.footer-social a:hover {
+    color: #4caf50;
+}
+
+/* Divider */
+.footer hr {
+    margin: 30px 0 15px;
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Bottom */
+.footer-bottom {
+    text-align: center;
+    font-size: 14px;
+    opacity: 0.85;
+}
