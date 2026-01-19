@@ -43,3 +43,132 @@
 .btn:hover{
     background-color: rgb(186, 109, 238);
 }
+
+
+/* -----------------------banner section---------------------------- */
+
+.banner {
+  /* position: relative; */
+  width: 100%;
+  min-height: 700px;
+  background: url("./assets/hero-bg.png") ;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  max-width: 1000px;
+  text-align: center;
+  color: #ffffff;
+}
+
+
+/* --------------------badge---------------- */
+.early {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 18px;
+  border-radius: 50px;
+  background-color: #a4a599;
+  font-size: 18px;
+  color: #b516dd;
+  margin-bottom: 24px;
+  
+}
+
+/* Outer circle */
+.badge {
+  width: 18px;
+  height: 18px;
+  background-color: #f30f2d;
+  border-radius: 50%;
+  position: relative;
+}
+
+/* Middle circle */
+.badge::before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  background-color: #27c765;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Inner circle */
+.badge::after {
+  content: "";
+  width: 6px;
+  height: 6px;
+  background-color: #cf0fa6;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.banner h1 {
+  font-size: clamp(80px, 5vw, 56px);
+  font-weight: 800;
+  line-height: 1.15;
+  margin-bottom: 16px;
+}
+
+.banner h1 span {
+  color: #22c55e;
+}
+
+.banner p {
+  /* max-width: 720px; */
+  margin: 0 auto 32px;
+  color: #e5e7eb;
+  font-size: 20px;
+  line-height: 1.7;
+}
+
+.banner-buttons {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.firstButton {
+    padding: 16px 23px;
+    border-radius: 8px;
+    text-decoration: none;
+    background: #22c55e;
+    color: #ffffff;
+    display: inline-flex;
+    align-items: center;
+}
+
+.secondButton{
+    padding: 16px 23px;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+  background: transparent;
+  border: 1px solid #94a3b8;
+  color: #ffffff;
+}
+
+.fa-arrow-right{
+  margin-left: 8px;
+}
+.play-icon {
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
+}
