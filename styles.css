@@ -295,3 +295,75 @@
   margin-right: 8px; 
   vertical-align: middle; 
 }
+
+
+/* ----------------------early access section---------------------- */
+
+.early-access {
+  display: flex;
+  justify-content: center;
+  padding: 96px 24px;
+}
+
+.early-access-container {
+  width: 95%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 72px 32px;
+  background-color: #faf8f3;
+  border-radius: 16px;
+}
+
+.early-access h2 {
+  font-size: 44px;
+  font-weight: 700;
+  color: #0b1f33;
+  margin-bottom: 16px;
+}
+
+.early-access .message1 {
+  font-size: 19px;
+  color: #5f6b7a;
+  margin-bottom: 12px;
+}
+
+.early-access .message2 {
+  font-size: 19px;
+  color: #5f6b7a;
+  margin-bottom: 32px;
+}
+
+.early-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  background-color: #b0d841;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 14px 25px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.early-button:hover {
+  background-color: #d63024;
+  
+}
+
+.early-button .arrow {
+  font-size: 17px;
+}
+
+.message3 {
+  margin-top: 28px;
+  font-size: 14px;
+  color: #6b7785;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.message3 .dot {
+  opacity: 0.6;
+}
