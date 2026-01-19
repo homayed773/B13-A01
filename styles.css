@@ -1,54 +1,54 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* -----------------------------HEADER------------------------------ */
 .navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 16px 100px;
-    background-color: rgb(120, 224, 111);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 100px;
+  background-color: rgb(120, 224, 111);
 }
 
 .logo{
-    height: 60px;
+  height: 60px;
 }
 
 .menu{
-    display: flex;
-    list-style: none;
-    gap: 30px;
+  display: flex;
+  list-style: none;
+  gap: 30px;
 }
 
 .menu a{
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .btn{
-    border-radius: 10px;
-    border:none;
-    padding: 20px 25px;
-    font-size: 15px;
-    background-color: #c6e4da;
+  border-radius: 10px;
+  border:none;
+  padding: 20px 25px;
+  font-size: 15px;
+  background-color: #c6e4da;
 }
 
 .btn a{
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
+
 .btn:hover{
-    background-color: rgb(186, 109, 238);
+  background-color: rgb(186, 109, 238);
 }
 
 
 /* -----------------------banner section---------------------------- */
 
 .banner {
-  /* position: relative; */
   width: 100%;
   min-height: 700px;
   background: url("./assets/hero-bg.png") ;
@@ -116,7 +116,6 @@
   transform: translate(-50%, -50%);
 }
 
-
 .banner h1 {
   font-size: clamp(80px, 5vw, 56px);
   font-weight: 800;
@@ -129,7 +128,6 @@
 }
 
 .banner p {
-  /* max-width: 720px; */
   margin: 0 auto 32px;
   color: #e5e7eb;
   font-size: 20px;
@@ -144,21 +142,21 @@
 }
 
 .firstButton {
-    padding: 16px 23px;
-    border-radius: 8px;
-    text-decoration: none;
-    background: #22c55e;
-    color: #ffffff;
-    display: inline-flex;
-    align-items: center;
+  padding: 16px 23px;
+  border-radius: 8px;
+  text-decoration: none;
+  background: #22c55e;
+  color: #ffffff;
+  display: inline-flex;
+  align-items: center;
 }
 
 .secondButton{
-    padding: 16px 23px;
-    border-radius: 8px;
-    text-decoration: none;
-    display: inline-flex;
-    align-items: center;
+  padding: 16px 23px;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
   background: transparent;
   border: 1px solid #94a3b8;
   color: #ffffff;
@@ -205,7 +203,6 @@
   color: #0b0f14;
   padding: 40px 24px;
   border-radius: 14px 14px 0 0;
-  /* box-shadow: 0 0 40px 0px rgba(0, 0, 0, 0.08); */
   box-shadow: -5px 0 3px -4px rgba(0,0,0,0.08), /* left */ 
   5px 0 3px -4px rgba(0,0,0,0.08), /* right */ 
   0 -5px 3px -4px rgba(0,0,0,0.08); /* top */
@@ -372,70 +369,70 @@
 /* --------------------------footer section------------------ */
 
 .footer {
-    background-color: rgb(53, 100, 48);
-    color: #ffffff;
-    padding: 40px 60px 20px;
+  background-color: rgb(53, 100, 48);
+  color: #ffffff;
+  padding: 40px 60px 20px;
 }
 
 .footer-top {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* Logo */
 .footer-logo {
-    display: flex;
-    align-items: center;
-    gap: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .logo-icon {
-    font-size: 26px;
+  font-size: 26px;
 }
 
 .logo-text {
-    font-size: 32px;
-    font-weight: bold;
-    color: #4caf50;
+  font-size: 32px;
+  font-weight: bold;
+  color: #4caf50;
 }
 
 .footer-logo small {
-    margin-left: 6px;
-    font-size: 12px;
-    opacity: 0.8;
+  margin-left: 6px;
+  font-size: 12px;
+  opacity: 0.8;
 }
 
 /* Social Links */
 .footer-social {
-    text-align: right;
+  text-align: right;
 }
 
 .footer-social p {
-    margin-bottom: 8px;
-    font-size: 14px;
+  margin-bottom: 8px;
+  font-size: 14px;
 }
 
 .footer-social a {
-    color: #ffffff;
-    margin-left: 12px;
-    font-size: 16px;
+  color: #ffffff;
+  margin-left: 12px;
+  font-size: 16px;
 }
 
 .footer-social a:hover {
-    color: #4caf50;
+  color: #4caf50;
 }
 
 /* Divider */
 .footer hr {
-    margin: 30px 0 15px;
-    border: none;
-    border-top: 1px solid rgba(255, 255, 255, 0.2);
+  margin: 30px 0 15px;
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 /* Bottom */
 .footer-bottom {
-    text-align: center;
-    font-size: 14px;
-    opacity: 0.85;
+  text-align: center;
+  font-size: 14px;
+  opacity: 0.85;
 }
